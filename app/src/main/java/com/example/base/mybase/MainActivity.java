@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
             public void onClick(View v) {
 
                 String[] perms = {Manifest.permission.WRITE_EXTERNAL_STORAGE};
-                if (EasyPermissions.hasPermissions(MainActivity.this, perms)) {
+                if (EasyPermissions.hasPermissions(MainActivity.this, Manifest.permission.READ_EXTERNAL_STORAGE)) {
                     // 已经申请过权限，做想做的事
                     download();
                 } else {
@@ -40,8 +40,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
                             MainActivity.this,
                             "申请权限，下载文件",
                             0,
-                            Manifest.permission.WRITE_EXTERNAL_STORAGE,
-                            Manifest.permission.RECORD_AUDIO);
+                            Manifest.permission.READ_EXTERNAL_STORAGE,Manifest.permission.WRITE_EXTERNAL_STORAGE);
 
                 }
 

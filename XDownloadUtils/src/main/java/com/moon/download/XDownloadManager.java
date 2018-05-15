@@ -239,9 +239,7 @@ public class XDownloadManager {
         String fileName = downloadInfo.getFileName();
         long downloadLength = 0, contentLength = downloadInfo.getTotal();
         //如果未指定文件夹或者指定的文件夹不能读写 使用默认文件夹
-
         if (filePath == null) {
-            //|| !filePath.canRead() || !filePath.canWrite()
             filePath = context.getExternalFilesDir(null);
         } else {
             if (!filePath.exists()) {
