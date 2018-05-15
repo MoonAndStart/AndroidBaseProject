@@ -10,10 +10,9 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.moon.download.XDownloadListener;
-import com.moon.download.XDownloadManager;
+import com.moon.xdownload.XDownloadListener;
+import com.moon.xdownload.XDownloadManager;
 
-import java.io.File;
 import java.util.List;
 
 import pub.devrel.easypermissions.EasyPermissions;

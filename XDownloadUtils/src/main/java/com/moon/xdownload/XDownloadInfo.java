@@ -1,4 +1,4 @@
-package com.moon.download;
+package com.moon.xdownload;
 
 /**
  * Created by chenyuelun on 2018/4/11.

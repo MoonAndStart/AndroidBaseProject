@@ -1,4 +1,4 @@
-package com.moon.download;
+package com.moon.xdownload;
 
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;

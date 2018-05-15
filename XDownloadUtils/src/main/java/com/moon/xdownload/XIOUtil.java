@@ -1,4 +1,4 @@
-package com.moon.download;
+package com.moon.xdownload;
 
 import java.io.Closeable;
 import java.io.IOException;
